@@ -8,5 +8,3 @@ def pixels_to_inches(pixels):
 # Converts length from inches to pixels (usually for display purposes)
 def inches_to_pixels(inches):
     return (inches * v.screen_dimension) / v.screen_dimension_inches
-
-
